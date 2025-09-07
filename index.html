@@ -3,11 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Plant a Tree, Grow a Future</title>
+
+<!--Favicon image  -->
+  <link rel="shortcut icon" href="./assets/plant logo.png" type="image/x-icon">
+<!-- font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font integration -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+ <!-- tailwind & daisyui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- stylesheet -->
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>My assignment is six</h1>
-  <h2>Md. Mizanur Rahman</h2>
-  <h3>Deoloyment in Cloud Flare</h3>
+  <header>
+    <div class="bg-[#15803D] flex justify-between items-center max-w-full h-[90px] m-auto">
+      <div>
+        <h1 class="font-bold text-3xl text-white ml-15">Green-Earth</h1>
+      </div>
+      <div>
+        <ul class="flex gap-6 font-semibold text-2xl text-white ">
+          <li class="hover:text-[#FACC15]"><a href="#">About</a></li>
+          <li class="hover:text-[#FACC15]"><a href="#">Gallery</a></li>
+          <li class="hover:text-[#FACC15]"><a href="#">Plant a Tree</a></li>
+        </ul>
+      </div>
+      <div class="mr-15">
+        <button class="bg-[#FACC15] text-[#15803D] text-xl font-semibold px-[20px] py-[10px] rounded-full hover:bg-white ">Plant a Tree</button>
+      </div>
+    </div>
+    <!-- hero section -->
+     <div class="bg-[#CFF0DC] w-full ">
+      <div class="flex flex-col md:flex-row justify-between items-center h-auto m-auto ">
+        <div class="mb-6 md:mb-0 ">
+         <img class="w-32 md:w-full" src="./assets/hero-leaf1.png" alt="">
+        </div>
+      <div class="text-center max-w-2xl">
+        <div>
+          <h2 class="text-3xl md:text-5xl font-bold text-[#1F2937] mb-4">Plant a Tree, Grow a Future</h2>
+          <p class="text-sm md:text-base mb-6">Join our mission to plant 1 million trees and make the Earth greener for future<br>
+          generations.</p>
+        </div>
+        <button class="bg-[#FACC15] text-[#15803D] text-lg md:text-xl font-semibold px-6 py-3 rounded-full hover:bg-white transition">Get Involved</button>
+
+      </div>
+      <div class="mt-6 md:mt-0">
+        <img class="w-32 md:w-full" src="./assets/hero-leaf2.png" alt="">
+      </div>
+      </div>
+     </div>
+     
+  </header>
+ 
 </body>
 </html>
